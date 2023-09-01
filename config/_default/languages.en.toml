@@ -2,25 +2,30 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 
-title = "Congo"
+title = "Martin Skøtt"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
-  isoCode = "en"
+  isoCode = "en-GB"
   displayName = "EN"
   rtl = false
 
   dateFormat = "2 January 2006"
 
   # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+  description = "Thoughts and scribbles from a geek"
 
 [author]
-  # name = "Your name here"
+  name = "Martin Skøtt"
   # image = "img/author.jpg"
-  # headline = "I'm only human"
-  # bio = "A little bit about you"
-  # links = [
+  headline = "Architect, developer, Linux user, sailor"
+  bio = "bio bio"
+  links = [
+    { mastodon = "https://fosstodon.org/@mskoett" },
+    { linkedin = "https://linkedin.com/in/martinskoett" },
+    { github = "https://github.com/mskott" },
+    { gitlab = "https://gitlab.com/mskott" },
+
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
@@ -62,4 +67,4 @@ title = "Congo"
   #   { twitter = "https://twitter.com/username" },
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
-  # ]
+  ]
