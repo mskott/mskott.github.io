@@ -3,7 +3,6 @@ title: "First Post"
 summary: |
     My first post with an explanation to why I begin blogging in 2023.
 date: 2023-09-06
-draft: true
 tags:
     - blogging
     - writing
