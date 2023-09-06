@@ -1,6 +1,8 @@
 ---
 title: "First Post"
-date: 2023-09-01T23:16:05+02:00
+summary: |
+    My first post with an explanation to why I begin blogging in 2023.
+date: 2023-09-06
 draft: true
 tags:
     - blogging
@@ -18,9 +20,9 @@ Writing has always been something I enjoyed doing, but since I left school most 
 Some of my writing here is probably going to resemble work quite a lot, but lets see where it goes.
 At least I'm not trying to sell anything to anyone here 😀
 
-Words and languages are important and I would like to improve my writing.
-Not only to improve my communication, but also to improve my command of the English language.
-You need to write in order to become a better writer - just like a chef needs to cook, a sailor needs to sail, a... 
+I would also like to work on my writing - not only to improve my communication, but also to improve my English.
+Although I have lived in both Ireland and the United Kingdom, and speak English on a daily basis I still feel there is room for improvement.
+
 
 # Who is the reader?
 
@@ -29,9 +31,9 @@ Maybe even find a morsel or two of useful information.
 
 # Inspiration
 
-Two people who have inspired me to begin blogging are [Julia Evans](https://jvns.ca) and [Major Hayden](https://major.io).
+Two people who have inspired me to begin blogging are [Julia Evans](https://jvns.ca/blog/2023/06/05/some-blogging-myths/) and [Major Hayden](https://major.io/p/how-i-write-blog-posts/).
+Both make some really good points, and Major really puts it into plain language:
 
-https://jvns.ca/blog/2023/06/05/some-blogging-myths/
+> Write for you – not for anyone else.
 
-https://major.io/p/why-technical-people-should-blog-but-dont/
-https://major.io/p/how-i-write-blog-posts/
+There you have it, lets see how long it lasts 😀
