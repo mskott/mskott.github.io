@@ -15,6 +15,7 @@ This doesn't just make the two tools interoperable, but also opens up for workin
 A common use-case for me is to run headless VMs and then use SSH to connect to them.
 Out of the box on Fedora I have to use the IP address of the VM to connect to it, which is a hassle. 
 libvirt comes with the [libvirt-nss](https://libvirt.org/nss.html) module which plugs in to the hosts name resolution, and extends it to dynamically resolve hostnames and guest names.
+It even works inside of your guest VMs allowing them to lookup other guests without using IP addresses.
 
 Installation is really simple, but the configuration is a little different on Fedora which uses [authselect(8)](https://github.com/authselect/authselect/blob/1a8e4ed55981c9d95cb073f72a31649fe60935c5/src/man/authselect.8.adoc) to manage `/etc/nsswitch.conf` and related files.
 Below is a simple how-to describing how I got it working on Fedora 38.
