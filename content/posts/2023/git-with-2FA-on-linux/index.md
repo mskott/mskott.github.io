@@ -17,3 +17,11 @@ tags:
 [Raising the bar for software security: next steps for GitHub.com 2FA](https://github.blog/2022-12-14-raising-the-bar-for-software-security-next-steps-for-github-com-2fa/)
 
 [Git Credential Manager Core](https://aka.ms/gcmcore) - replaced Git Credential Manager for Windows
+
+git-credential-oauth
+
+```
+[credential]
+	helper = cache --timeout 7200
+	helper = oauth
+```
