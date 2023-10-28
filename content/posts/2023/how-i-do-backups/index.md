@@ -43,6 +43,9 @@ Getting it all setup with Vorta and a trial account on BorgBase took around 30 m
 Vorta offers lots of options to schedule backups, but for now I have mostly stuck with the defaults. 
 Only settings I made sure to check were to start Vorta automatically on login and to run missed backups on startup as I don't leave my laptop running 24/7.
 
+BorgBase provides a monitoring feature where it alerts you if a repository hasn't seen a new backup within a certain period.
+This is a simple solution to the problem of alerting you if your backup program for some reason is failing to run.
+
 ## Next steps...
 
 There is nothing more useless than an untested backup so that is an obvious next step. 
