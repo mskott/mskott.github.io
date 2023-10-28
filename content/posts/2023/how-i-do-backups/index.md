@@ -3,13 +3,13 @@ title: "How I Do Backups"
 date: 2023-10-07T17:49:35+02:00
 draft: true
 tags:
-    - backup
-    - borg
-    - vorta
-    - spideroak
-    - borgbase
-	- fedora
-	- debian
+  - backup
+  - borg
+  - vorta
+  - spideroak
+  - borgbase
+  - fedora
+  - debian
 ---
 
 For the last six years I have been using a backup product called [SpiderOak One](https://crossclave.com/one/) which puts a large focus on privacy - it even got a recommendation from Edward Snowden.
