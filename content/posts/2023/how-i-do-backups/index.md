@@ -32,18 +32,22 @@ My wife runs Windows on her laptop but all her data is on Google Drive, and sinc
 
 ## Borg Backup
 
-One of the tools  mentioned by the Linux Matters hosts was [Borg Backup](https://www.borgbackup.org), which I had also seen positive mentions of in other places and it matches all my requirements.
+One of the tools  mentioned by the Linux Matters hosts was [Borg Backup](https://www.borgbackup.org), which I had also seen positive mentions of in other places.
 
 Borg is released under the BSD license, and packages are available in the official repos of both Fedora and Debian.
-There are several [service providers](https://www.borgbackup.org/support/commercial.html) which support it, including well-known companies like  Hetzner and rsync.net.
+There are several [service providers](https://www.borgbackup.org/support/commercial.html) which support Borg, including well-known companies like  Hetzner and rsync.net.
 I ended up creating a trial account with [BorgBase](https://www.borgbase.com/) which operates out of Malta and allows you to choose between storing your data in the EU or the United States.
-The same people who are behind BorgBase also behind the GUI client  [Vorta](https://vorta.borgbase.com/) which, again, is available in both Fedora and Debian.
+The same people who are behind BorgBase also behind the GUI client [Vorta](https://vorta.borgbase.com/) which, again, is available in both Fedora and Debian.
 
-Getting it all setup with Vorta and trial account on BorgBase took around 30 minutes before I was ready to begin adding folders to Vorta's list of sources to back up. 
+Getting it all setup with Vorta and a trial account on BorgBase took around 30 minutes before I was ready to begin adding folders to Vorta's list of sources to back up. 
 Vorta offers lots of options to schedule backups, but for now I have mostly stuck with the defaults. 
 Only settings I made sure to check were to start Vorta automatically on login and to run missed backups on startup as I don't leave my laptop running 24/7.
 
 ## Next steps...
 
 There is nothing more useless than an untested backup so that is an obvious next step. 
+Vorta's documentation includes a nice guide on how to [verify](https://docs.borgbase.com/verify/) your backup which I will also need to take a closer look at.
 For now I have backed up about 7,5GB of files to BorgBase, but have yet to try restoring them on another system.
+
+I would also like to take a look at [Borgmatic](https://torsion.org/borgmatic/) which looks like a very simple method of running Borg backups from the commandline.
+Could be useful on a server where Vorta wouldn't be of much help.
