@@ -1,7 +1,8 @@
 ---
 title: "How I Do Backups"
 date: 2023-11-06
-draft: true
+coverCaption: "Sculpture in Cartagena, Spain."
+coverAlt: "Sculpture of a whale tail in Cartagena, Spain."
 tags:
   - backup
   - borg
