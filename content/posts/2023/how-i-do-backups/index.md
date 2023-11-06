@@ -1,6 +1,6 @@
 ---
 title: "How I Do Backups"
-date: 2023-10-07T17:49:35+02:00
+date: 2023-11-06
 draft: true
 tags:
   - backup
@@ -28,7 +28,7 @@ While I hadn't tried out any new backup tools, I had made a list of loose requir
   * Preferably multiple providers of off-site locations to choose from.
   * Data should be stored in the EU. Not out of paranoia, but because I like not having everything in the US.
 
-My wife runs Windows on her laptop but all her data is on Google Drive, and since I only have Linux machines support for other platforms isn't a requirement.
+My wife runs Windows on her laptop and stores all her data in the cloud, and since I only have Linux machines support for other platforms isn't a requirement.
 
 ## Borg Backup
 
@@ -52,5 +52,5 @@ There is nothing more useless than an untested backup so that is an obvious next
 Vorta's documentation includes a nice guide on how to [verify](https://docs.borgbase.com/verify/) your backup which I will also need to take a closer look at.
 For now I have backed up about 7,5GB of files to BorgBase, but have yet to try restoring them on another system.
 
-I would also like to take a look at [Borgmatic](https://torsion.org/borgmatic/) which looks like a very simple method of running Borg backups from the commandline.
+I would also like to take a look at [Borgmatic](https://torsion.org/borgmatic/) which looks like a very simple method of running Borg backups from the command-line.
 Could be useful on a server where Vorta wouldn't be of much help.
