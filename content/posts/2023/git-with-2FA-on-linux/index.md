@@ -58,6 +58,8 @@ I have yet to try it out, but setup looks very simple.
 Another solution comes from Microsoft and is called *Git Credential Manager Core*[^5] - replacing a previous tool called *Git Credential Manager for Windows*.
 Git Credential Manager Core is written in .Net and supposedly runs fine on Linux, but it only available a .deb package or as a tarball and isn't available in the Fedora repositories.
 
+Git Credential Manager Core does have extra support for Azure so it might be worth a look if that is your choice of cloud solution.
+
 I have used Git Credential Manager Core on Windows where it works very well and even integrates into WSL2.
 I remember struggling a bit setting it up with WSL2, but got it working in the end.
 Can't remember what I had to do and the machine has been returned to the client, but I hope that documentation has been updated should I ever need it again 😀
