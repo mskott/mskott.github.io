@@ -15,12 +15,12 @@ tags:
 SSH keys have, for a long time, been the preferred method of authentication when using Git with remote repositories.
 These days, with increased security awareness, many organisations are requiring some variant of multi-factor authentication for all services - Git included.
 
-GitHub has announced[^1] that they are taking it one step further, and will require that all users contributing code enable one or more forms of two-factor authentication by the end of 2023.
+GitHub has announced[^1] that they are taking it one step further, and will require that all users contributing code enable one or more forms of two-factor authentication (2FA) by the end of 2023.
 
 [^1]:[Raising the bar for software security: next steps for GitHub.com 2FA](https://github.blog/2022-12-14-raising-the-bar-for-software-security-next-steps-for-github-com-2fa/)
 
-That leaves Git users with a problem - if they begin cloning repositories using HTTP instead of SSH they will get a password prompt every time interacting with the remote repository.
-And they will have to input a valid GitHub access token instead of their password - every time!
+That leaves Git users with a problem as SSH keys can't be combined with 2FA.
+Instead users can create a personal access token and input it as their password, but that is cumbersome and requires managing personal access tokens in a secure way.
 
 Thankfully there are several solutions to solve this issue, without compromising security 😀
 
@@ -55,4 +55,12 @@ I have yet to try it out, but setup looks very simple.
 
 ## Git Credential Manager Core
 
-[Git Credential Manager Core](https://aka.ms/gcmcore) - replaced Git Credential Manager for Windows
+Another solution comes from Microsoft and is called *Git Credential Manager Core*[^5] - replacing a previous tool called *Git Credential Manager for Windows*.
+Git Credential Manager Core is written in .Net and supposedly runs fine on Linux, but it only available a .deb package or as a tarball and isn't available in the Fedora repositories.
+
+I have used Git Credential Manager Core on Windows where it works very well and even integrates into WSL2.
+I remember struggling a bit setting it up with WSL2, but got it working in the end.
+Can't remember what I had to do and the machine has been returned to the client, but I hope that documentation has been updated should I ever need it again 😀
+
+
+[^5]:[Git Credential Manager Core](https://aka.ms/gcmcore)
