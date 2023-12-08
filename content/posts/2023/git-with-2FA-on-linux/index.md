@@ -1,7 +1,6 @@
 ---
 title: "Git With 2FA on Linux"
-date: 2023-10-07T18:17:27+02:00
-draft: true
+date: 2023-12-08
 tags:
     - git
     - 2fa
