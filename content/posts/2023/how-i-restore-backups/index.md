@@ -1,6 +1,8 @@
 ---
 title: "How I Restore Backups"
 date: 2023-12-08T23:01:21+01:00
+coverCaption: "Sails stored on the bow of a sailboat after the 2015 Fastnet race"
+coverAlt: "Bags of sails stored on the bow of a sailboat"
 draft: true
 tags:
     - backup
@@ -10,6 +12,7 @@ tags:
     - borgbackup
     - borgbase
     - linux
+    - disaster recovery
 ---
 My recent post about replacing my backup solution with [BorgBackup](https://www.borgbackup.org) ended with a bit of a cliffhanger...
 I still needed to try and restore some data from backup.
