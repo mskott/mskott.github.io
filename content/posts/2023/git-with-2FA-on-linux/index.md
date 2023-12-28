@@ -1,6 +1,7 @@
 ---
 title: "Git With 2FA on Linux"
 date: 2023-12-08
+coverCaption: "Olafur Eliassons Fjordenhus in Vejle"
 tags:
     - git
     - 2fa
