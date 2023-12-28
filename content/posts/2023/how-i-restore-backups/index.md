@@ -11,12 +11,12 @@ tags:
     - borgbase
     - linux
 ---
-My recent post about replacing my backup solution with BorgBackup ended with a bit of a cliffhanger...
-I still needed to try and restore some data which had been synced to BorgBase using Vorta. 
+My recent post about replacing my backup solution with [BorgBackup](https://www.borgbackup.org) ended with a bit of a cliffhanger...
+I still needed to try and restore some data from backup.
 
 I decided to test this by imagining the worst case scenario of my main computer, and all its data, being lost completely thus requiring me to restore data using only a fresh Linux machine and my password manager.
 
-First, I needed to get access to BorgBase again in order to configure access from my "new" Linux machine.
+First, I needed to get access to BorgBase again in order to configure access from the fresh Linux machine.
 Using the credentials stored in my password manager and my phone for 2FA I managed to log in to BorgBase. 
 I then needed to generate a new SSH key, using `ssh-keygen`, and add the public key to BorgBase.
 During this I learned an important detail about BorgBase - the SSH key is only used to authenticate the machine to BorgBase and isn't tied to the backup data itself, removing the need to backup the SSH key.
@@ -27,11 +27,12 @@ This was easily done using the BorgBase UI.
 I chose to try two different methods of restoring data - using the BorgBackup CLI, and Vorta.
 Before we get to that a short note on Borg repositories and passphrases.
 The password of a repository is set when first creating the repository (using `borg init`) and is used to encrypt the repository.
-The passphrase has nothing to do with your password to BorgBase and should be kept somewhere safe - I store it in a note in my password manager.
+The passphrase has nothing to do with your BorgBase password and should be kept somewhere safe - I store it in a note in my password manager.
 
 ## Borg CLI
 
-The `borg(1)` command is pretty straight-forward once you get the hang of it and it has an extensive man page with lots of details and examples.
+The `borg(1)` command is pretty straight-forward once you get the hang of it and its extensive man page has lots of details and examples. The website has a very nice [quick start page](https://borgbackup.readthedocs.io/en/stable/quickstart.html) outlining the process from start to finish.
+
 Restoring data to a new Fedora machine takes the following steps:
 
 1. Install BorgBackup `dnf install borgbackup`
