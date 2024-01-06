@@ -14,7 +14,7 @@ tags:
     - linux
     - disaster recovery
 ---
-My recent post about replacing my backup solution with [BorgBackup](https://www.borgbackup.org) ended with a bit of a cliffhanger...
+My [recent post]({{< relref "/posts/2023/how-i-do-backups" >}}) about replacing my backup solution with [BorgBackup](https://www.borgbackup.org) ended with a bit of a cliffhanger...
 I still needed to try and restore some data from backup.
 
 I decided to test this by imagining the worst case scenario of my main computer, and all its data, being lost completely thus requiring me to restore data using only a fresh Linux machine and my password manager.
