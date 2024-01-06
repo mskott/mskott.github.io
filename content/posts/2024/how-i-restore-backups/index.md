@@ -1,9 +1,8 @@
 ---
 title: "How I Restore Backups"
-date: 2023-12-08T23:01:21+01:00
+date: 2024-01-06
 coverCaption: "Sails stored on the bow of a sailboat after the 2015 Fastnet race"
 coverAlt: "Bags of sails stored on the bow of a sailboat"
-draft: true
 tags:
     - backup
     - restore
