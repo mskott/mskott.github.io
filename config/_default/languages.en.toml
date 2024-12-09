@@ -24,7 +24,6 @@ title = "Martin Skøtt"
     { mastodon = "https://fosstodon.org/@mskoett" },
     { linkedin = "https://linkedin.com/in/martinskoett" },
     { github = "https://github.com/mskott" },
-    { gitlab = "https://gitlab.com/mskott" },
 
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
