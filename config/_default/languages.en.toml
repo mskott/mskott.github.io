@@ -15,7 +15,7 @@ title = "Martin Skøtt"
   # mainSections = ["section1", "section2"]
   description = "Thoughts and scribbles from a geek"
 
-[author]
+[params.author]
   name = "Martin Skøtt"
   # image = "img/author.jpg"
   headline = "Architect, developer, Linux user, sailor"
