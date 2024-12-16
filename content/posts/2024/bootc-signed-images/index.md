@@ -68,4 +68,4 @@ As we can see, bootc didn't allow the VM to be upgraded to the unsigned image.
 Being able to verify that OS updates come from a trusted source is a key requirement in modern computing.
 Bootable containers are still a relatively new thing, so already having verifiable updates is testament to the benefits of building it on top of container technology.
 
-The files used in this experiment can be found in [this Git repository](https://github.com/mskott/bootc-signed/blob/main/quay.io.yaml).
+The files used in this experiment can be found in [this Git repository](https://github.com/mskott/bootc-signed).
